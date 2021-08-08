@@ -1,0 +1,4 @@
+usr/share/policy/rules/current
+usr/share/policy/rules/basic/*.pl
+usr/share/policy/rules/basic/*.dres
+

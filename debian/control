@@ -1,0 +1,28 @@
+Source: policy-settings-common
+Section: libs
+Priority: optional
+Maintainer: Merlijn Wajer <merlijn@wizzup.org>
+Build-Depends:
+ debhelper-compat (= 12),
+ libtool,
+ libtool-bin,
+ autoconf,
+ autoconf-archive,
+ automake,
+ pkg-config,
+ check,
+ libprolog-dev,
+ ohm-dev,
+ libdres-utils,
+ prolog-resourcepolicy-extensions,
+Standards-Version: 4.3.0
+
+Package: policy-settings-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Common policy settings sources
+
+Package: policy-settings-common-text
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Common policy settings sources
